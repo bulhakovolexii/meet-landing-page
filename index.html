@@ -15,12 +15,149 @@
     <link rel="stylesheet" href="./src/css/output.css" />
   </head>
   <body>
-    <!-- Meet makes it easy to connect with others face-to-face virtually and
-    collaborate across any device. Download v1.3 What is it? 01 Built for modern
-    use Smarter meetings, all in one place Send messages, share files, show your
-    screen, and record your meetings — all in one workspace. Control who can
-    join with invite-only team access, data encryption, and data export. 02
-    Experience more together Stay connected with reliable HD meetings and
-    unlimited one-on-one and group video sessions. Download v1.3 -->
+    <div class="fixed top-0 right-0 bottom-0 left-0 -z-10 bg-white"></div>
+
+    <header class="flex justify-center px-20 pt-12 lg:pt-20">
+      <a href="#" class="outline-offset-4 focus-visible:outline-cyan-600">
+        <img src="./assets/logo.svg" alt="logo" />
+      </a>
+    </header>
+
+    <section
+      class="grid grid-cols-2 gap-x-4 gap-y-12 overflow-x-hidden px-8 pt-16 pb-8 align-top md:gap-x-8 md:gap-y-18 md:pb-16 lg:grid-cols-[auto_calc(var(--spacing)_*_128)_auto]"
+    >
+      <div class="relative h-40 md:h-76 lg:order-1 lg:h-[303px]">
+        <img
+          class="absolute right-0 h-full max-w-none lg:right-16"
+          src="./assets/desktop/image-hero-left.png"
+          alt=""
+        />
+      </div>
+
+      <div class="relative h-40 md:h-76 lg:order-3 lg:h-[303px]">
+        <img
+          class="absolute left-0 h-full max-w-none lg:top-14 lg:left-16"
+          src="./assets/desktop/image-hero-right.png"
+          alt=""
+        />
+      </div>
+
+      <div
+        class="col-span-2 flex max-w-112 flex-col items-center gap-6 justify-self-center lg:order-2 lg:col-span-1 lg:max-w-full lg:gap-8 lg:px-8 lg:py-6"
+      >
+        <h1 class="text-center text-4xl font-black md:text-5xl/13 lg:text-6xl">
+          Group Chat <br />
+          for Everyone
+        </h1>
+        <p
+          class="text-center tracking-[0.01rem] text-slate-600 lg:max-w-104 lg:text-lg/normal"
+        >
+          Meet makes it easy to connect with others face-to-face virtually and
+          collaborate across any device.
+        </p>
+        <div class="flex flex-col items-center gap-4 md:flex-row">
+          <a href="#" class="btn"
+            >Download <span class="text-cyan-300">v1.3</span></a
+          >
+          <a
+            href="#"
+            class="btn bg-purple-600 hover:bg-purple-500 active:bg-purple-700"
+            >What is it?</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <main
+      class="flex flex-col items-center gap-16 p-8 pb-16 md:px-11 md:pt-14 lg:mx-auto lg:max-w-280 lg:px-0 lg:pb-18"
+    >
+      <div class="number">01</div>
+      <div class="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6 lg:gap-8">
+        <img
+          class="img"
+          src="./assets/desktop/image-woman-in-videocall.jpg"
+          alt="Woman in videocall"
+        />
+        <img
+          class="img"
+          src="./assets/desktop/image-women-videochatting.jpg"
+          alt="Women videochatting"
+        />
+        <img
+          class="img"
+          src="./assets/desktop/image-men-in-meeting.jpg"
+          alt="Man in meeting"
+        />
+        <img
+          class="img"
+          src="./assets/desktop/image-man-texting.jpg"
+          alt="Man texting"
+        />
+      </div>
+
+      <div class="flex flex-col gap-8 text-center md:max-w-6/8 lg:max-w-6/12">
+        <div class="flex flex-col items-center gap-4 md:px-7 lg:px-13">
+          <h3
+            class="text-xs/3.5 font-black tracking-[0.25rem] text-cyan-600 uppercase md:text-sm lg:text-base/3.5"
+          >
+            Built for modern use
+          </h3>
+          <h2 class="text-2xl font-black md:text-3xl lg:text-4xl">
+            Smarter meetings, all in one place
+          </h2>
+        </div>
+        <p
+          class="tracking-[0.01rem] text-slate-600 lg:text-lg/normal lg:tracking-wide"
+        >
+          Send messages, share files, show your screen, and record your meetings
+          — all in one workspace. Control who can join with invite-only team
+          access, data encryption, and data export.
+        </p>
+      </div>
+    </main>
+
+    <footer class="flex flex-col items-center">
+      <div class="number z-10">02</div>
+      <div class="relative -mt-7 w-full overflow-hidden bg-cyan-600/85">
+        <img
+          class="absolute -z-10 h-full w-full object-cover md:hidden"
+          src="./assets/mobile/image-footer.jpg"
+          alt=""
+        />
+        <img
+          class="absolute -z-10 hidden h-full w-full object-cover md:block"
+          src="./assets/tablet/image-footer.jpg"
+          alt=""
+        />
+        <img
+          class="absolute -z-10 hidden h-full w-full object-cover lg:block"
+          src="./assets/desktop/image-footer.jpg"
+          alt=""
+        />
+        <div
+          class="mx-auto flex flex-col items-center gap-6 px-8 py-16 md:max-w-6/8 lg:max-w-296 lg:flex-row lg:items-start lg:gap-8 lg:px-8 lg:py-29"
+        >
+          <h3
+            class="text-center text-2xl font-black text-white md:text-3xl lg:text-start lg:text-4xl"
+          >
+            Experience more together
+          </h3>
+          <p
+            class="text-center tracking-[0.01rem] text-white lg:max-w-89 lg:text-start lg:text-lg/6.5"
+          >
+            Stay connected with reliable HD meetings and unlimited one-on-one
+            and group video sessions.
+          </p>
+          <a
+            href="#"
+            class="btn bg-purple-600 hover:bg-purple-500 active:bg-purple-700 lg:ml-16 lg:shrink-0"
+            >Download <span class="text-purple-300">v1.3</span></a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- 02
+       -->
   </body>
 </html>
