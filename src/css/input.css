@@ -44,7 +44,7 @@
   }
 
   .number {
-    @apply relative mt-20 flex h-14 w-14 items-center justify-center rounded-full border-1 bg-white font-bold text-slate-600 before:absolute before:bottom-full before:left-1/2 before:block before:h-20 before:w-0 before:border-l-1 before:content-[''];
+    @apply relative mt-20 flex h-14 w-14 items-center justify-center rounded-full border-1 border-slate-300 bg-white font-bold text-slate-600 before:absolute before:bottom-full before:left-1/2 before:block before:h-20 before:w-0 before:border-l-1 before:border-slate-300 before:content-[''];
   }
 
   .img {
